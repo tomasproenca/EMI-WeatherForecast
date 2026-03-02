@@ -1,0 +1,15 @@
+paths:
+  raw_data_dir: data/raw
+  processed_data_dir: data/processed
+api:
+  params:
+    latitude: 38.801
+    longitude: -9.3783
+    start_date: '2026-02-06'
+    end_date: '2026-02-20'
+    hourly:
+    - temperature_2m
+    - relative_humidity_2m
+    - precipitation
+    timezone: auto
+project_name: EMI-WeatherForecast

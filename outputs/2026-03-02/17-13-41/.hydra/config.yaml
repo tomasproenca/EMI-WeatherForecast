@@ -1,0 +1,19 @@
+paths:
+  raw_data_dir: data/raw
+  processed_data_dir: data/processed
+api:
+  params:
+    latitude: 41.1496
+    longitude: -9.3783
+    start_date: '2026-02-06'
+    end_date: '2026-02-20'
+    hourly:
+    - temperature_2m
+    - relative_humidity_2m
+    - precipitation
+    timezone: auto
+tracking:
+  uri: http://localhost:5000
+  experiment_name: Testing_Overrides_Dashboard
+  default_run_name: Hydra_Managed_Run
+project_name: EMI-WeatherForecast
